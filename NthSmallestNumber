@@ -1,0 +1,34 @@
+package explicit.conversion;
+
+public class Nthsmallestnumb {
+
+	public static void main(String[] args) {
+		int [] a= {1,2,3,4,5,6,-8,-90,-100,-10};
+		      System.out.print(" Before sorting");
+		      for(int i=0;i<a.length;i++) {
+		    	  System.out.print(a[i]+" ");
+		}
+		int t;
+		System.out.println("Sorting process begins");
+		for(int i=0;i<a.length;i++) {
+    	  for(int j=i+1;j<a.length;j++) {
+    		  if(a[i]<a[j]) {
+    			  t=a[i];
+    			  a[i]=a[j];
+    			  a[j]=t;
+    		  }
+    	  }
+    	  System.out.println("  sorting process"+(i+1));
+    	  for(int k=0;k<a.length;k++) {
+    	      System.out.print(a[k]+" ");
+      }
+    	  System.out.println();
+		}
+		System.out.println("Sorting process ends");
+		System.out.println("/n After sorting");
+      for(int i=0;i<a.length;i++) {
+      System.out.print(a[i]+" ");
+	}
+	System.out.println(" 7th smallest"+a[7-1]);
+}
+}
