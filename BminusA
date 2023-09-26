@@ -1,0 +1,33 @@
+package explicit.conversion;
+
+public class AminusB {
+
+	public static void main(String[] args) {
+		int [] A= {1,2,3,4,5,6,7,8,9};
+		int [] B= {10,11,12,13,14,15,1,2,3,16,17,18,19,20};
+		int [] aminb=new int[A.length];
+		int index=0;
+		for(int i=0;i<A.length;i++) {
+			boolean flag=false;
+			for(int j=0;j<B.length;j++) {
+				if(A[i]==B[j]) {//
+					flag=true;
+					break;
+				}//if
+			}//for
+			if(flag==true) {
+				flag=false;
+			}
+			else {
+					aminb[index]=A[i];
+					index++;
+				}//else
+			}//i
+		
+
+	for(int i=0;i<index;i++) {
+		System.out.print(aminb[i]+" ");
+
+	}
+	}
+}
