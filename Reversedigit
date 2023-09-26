@@ -1,0 +1,16 @@
+package explicit.conversion;
+
+public class ReverseDigit {
+	static int a=123456;
+
+	public static void main(String[] args) {
+		int rev=0;
+		while(a!=0) {
+			int remainder=a %10;
+			rev=rev*10+remainder;
+			a=a /10;
+			
+		}
+		System.out.print(rev+" ");
+	}//1232
+}
