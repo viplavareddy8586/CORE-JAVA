@@ -1,0 +1,21 @@
+package explicit.conversion;
+
+public class SalaryInHand {
+
+	public static void main(String[] args) {
+		double Monthlyincome=60000;
+		double taxsaving=50000;
+		double Annualincome=12*Monthlyincome;
+		double taxableincome=Annualincome-taxsaving;//360000-120000=240000*20/100
+		double taxliablity=12500+48000;
+		double incomeaftertax=Annualincome-taxliablity;
+		double salaryinhandpermonth=incomeaftertax/12;
+		System.out.println("Annualincome"+" " +Annualincome);
+		System.out.println("taxableincome"+" "+taxableincome);
+		System.out.println("taxliablity"+" "+taxliablity);
+		System.out.println("salaryinhandpermonth"+" "+salaryinhandpermonth);
+		System.out.println("incomeaftertax"+ " " +incomeaftertax);
+		
+	}
+
+}
