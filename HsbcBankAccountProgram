@@ -1,0 +1,45 @@
+package explicit.conversion;
+
+public class Hsbcbankaccount {
+     int accno;
+     int blc;
+     String name;
+     
+
+	public Hsbcbankaccount(int accno, int blc, String name) {
+		this.accno = accno;
+		this.blc = blc;
+		this.name = name;
+		System.out.println("New acc created on name"+name+"with opening balance"+blc);
+	}
+	void deposit(int amount) {
+		this.blc=this.blc+amount;
+		System.out.println("after deposit total amount "+this.blc);
+	}
+	void withdrawn(int cash) {
+		if(cash>this.blc){
+			System.out.println("Insufficient balance");
+		}
+		else {
+			this.blc=this.blc-cash;
+			System.out.println("Withdrawn amount"+this.blc);
+		}
+	}
+		void checkbalance() {
+			System.out.println("check balance"+this.blc);
+		}
+
+
+public static void main(String[] args) {
+	Hsbcbankaccount viplavacc=new Hsbcbankaccount(123456,50000,"Viplav");
+	viplavacc.checkbalance();
+	viplavacc.deposit(50000);
+	viplavacc.checkbalance();
+	viplavacc.withdrawn(1000000);
+	viplavacc.checkbalance();
+	viplavacc.withdrawn(25000);
+	viplavacc.checkbalance();
+
+}
+}
+
