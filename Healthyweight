@@ -1,0 +1,24 @@
+package explicit.conversion;
+
+public class Healthy {
+
+	public static void main(String[] args) {
+		double weight=75;//kgs
+		double height=67;//inches
+		double heightinmeters=0.0254*67;
+		double BMI;
+		BMI=weight%(heightinmeters*heightinmeters);
+		BMI=BMI*10;
+		System.out.println(weight);
+		System.out.println(BMI);
+		if(BMI<=29.9) {
+			System.out.println("Overweight");
+		}
+		if(weight>66) {
+			double targetweight=66.1;
+			System.out.println(targetweight);
+			System.out.println("You must lose 8.9kgs");
+		}
+	}
+
+}
