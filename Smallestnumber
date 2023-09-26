@@ -1,0 +1,17 @@
+package explicit.conversion;
+
+public class Smallestnumber {
+
+	public static void main(String[] args) {
+		int [] num= {10,20,30,40,-20,10,50,60,-30,-50,-70,-80};
+		int small=num[0];
+		for(int i=1;i<num.length;i++) {
+			if(small>num[i]) {
+				small=num[i];
+			}
+		}
+		System.out.println(small);
+
+	}
+
+}
