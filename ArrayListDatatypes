@@ -1,0 +1,42 @@
+package explicit.conversion;
+
+import java.util.ArrayList;
+
+public class ArrayListdatatypes {
+
+	public static void main(String[] args) {
+		/*ArrayList<Integer> n=new ArrayList<Integer>();
+		n.add(1);
+		n.add(10);
+		n.add(5);
+		n.add(16);
+		n.add(17);
+		
+		n.add(3, 5);
+		System.out.println(n);
+*/
+		/*ArrayList<String> n=new ArrayList<String>();
+		n.add("viplav");
+		n.add("SHIVA");
+		n.add("Rohith");
+		n.add("Bharath");
+		
+		n.add(1,"Charan");
+		System.out.println(n);
+		*/
+		/*ArrayList<Float> n=new ArrayList<Float>();
+		n.add(1.0f);
+		n.add(2.3f);
+		n.add(4.5f);
+		n.add(6.7f);
+		System.out.println(n);
+		*/
+		ArrayList<Double> n=new ArrayList<Double>();
+		n.add(3.25);
+		n.add(35.67);
+		n.add(134.45);
+		n.add(2345.345);
+		System.out.println(n);
+	}
+
+}
