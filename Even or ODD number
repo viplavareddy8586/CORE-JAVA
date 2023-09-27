@@ -1,0 +1,30 @@
+package explicit.conversion;
+
+public class Even {
+
+	public static void main(String[] args) {
+		int n=-325;
+		if(n>0)// false 
+		{
+			if( n % 2 == 0)
+			{
+				System.out.println("Number is +ve and no is even no..."+n);
+			}
+			else {
+				System.out.println("Number is +ve and no is odd no..."+n);
+			}
+			
+		}
+		else {
+			if( n % 2 == 0)
+			{
+				System.out.println("Number is -ve and no is even no..."+n);
+			}
+			else {
+				System.out.println("Number is -ve and no is odd no..."+n);
+			}
+		}
+
+	}
+
+}
