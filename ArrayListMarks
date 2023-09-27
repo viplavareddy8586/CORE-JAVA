@@ -1,0 +1,103 @@
+package explicit.conversion;
+
+import java.util.ArrayList;
+
+public class ArrayListExample {
+	String name;
+	String collegename;
+	int fee;
+	int maths;
+	int social;
+	int science;
+		public ArrayListExample(String name, String collegename, int fee, int maths, int social, int science) {
+		super();
+		this.name = name;
+		this.collegename = collegename;
+		this.fee = fee;
+		this.maths = maths;
+		this.social = social;
+		this.science = science;
+	}
+
+public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getCollegename() {
+		return collegename;
+	}
+	public void setCollegename(String collegename) {
+		this.collegename = collegename;
+	}
+	public int getFee() {
+		return fee;
+	}
+	public void setFee(int fee) {
+		this.fee = fee;
+	}
+	public int getMaths() {
+		return maths;
+	}
+	public void setMaths(int maths) {
+		this.maths = maths;
+	}
+	public int getSocial() {
+		return social;
+	}
+	public void setSocial(int social) {
+		this.social = social;
+	}
+	public int getScience() {
+		return science;
+	}
+	public void setScience(int science) {
+		this.science = science;
+	}
+
+
+public static void main(String[] args) {
+	  ArrayListExample s1=new ArrayListExample("viplav"," SRTIST",10000,55,65,75);
+	  ArrayListExample s2=new ArrayListExample("Rohith"," REC",20000,45,55,35);
+	  ArrayListExample s3=new ArrayListExample("charan"," SRTI",50000,95,85,65);
+	  ArrayListExample s4=new ArrayListExample("shiva"," NLG",5000,25,15,45);
+	  
+	  ArrayList<ArrayListExample> list=new ArrayList<ArrayListExample>();
+       list.add(s1);
+       list.add(s2);
+       list.add(s3);
+       list.add(s4);
+       ArrayList<ArrayListExample> passlist=new ArrayList();
+       ArrayList <ArrayListExample>faillist=new ArrayList();
+       ArrayListExample stu=null;
+    for(int i=0;i<list.size();i++) {
+    	stu=list.get(i);
+    	if(stu.getMaths()>50  && stu.getScience()>50 && stu.getSocial() > 50)
+    	{
+    		passlist.add(stu);
+    	}
+    	else {
+    		faillist.add(stu);
+    	}
+    	
+    }
+    System.out.println("Pass Student List--->");
+	System.out.print("\nName\tCollegeName\tMaths\tScience\tSocial");
+	for(int i=0;i<passlist.size();i++) {
+		stu = passlist.get(i);
+		System.out.print("\n"+stu.getName()+"\t"+stu.collegename+"\t\t"+
+		stu.maths+"\t"+stu.science+
+				"\t"+stu.social);
+
+}
+	System.out.println("\n fail Student List--->");
+	System.out.print("\nName\tCollegeName\tMaths\tScience\tSocial");
+	for(int i=0;i<faillist.size();i++) {
+		stu = faillist.get(i);
+		System.out.print("\n"+stu.getName()+"\t"+stu.collegename+"\t\t"+
+		stu.maths+"\t"+stu.science+
+				"\t"+stu.social);
+	}
+}
+}
