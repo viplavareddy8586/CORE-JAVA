@@ -1,0 +1,28 @@
+package explicit.conversion;
+
+import java.util.ArrayList;
+
+public class Findporninarraylist {
+
+	public static void main(String[] args) {
+		ArrayList n=new ArrayList();
+		n.add(1);
+		n.add(-1);
+		n.add(-2);
+		n.add(3);
+		n.add(-4);
+		int possum=0,negsum=0;
+		for(int i=0;i<n.size();i++) {
+			if((int)n.get(i)>0) {
+				possum=possum+(int)n.get(i);
+				
+			}
+			else {
+				negsum=negsum+(int)n.get(i);
+			}
+		}
+       System.out.println(possum);
+       System.out.println(negsum);
+	}
+
+}
