@@ -1,0 +1,23 @@
+package explicit.conversion;
+
+public class UniversityProgram {
+
+	public static void main(String[] args) {
+		double A=100,B=100;
+		if(A>=55 && B>=45) {
+			System.out.println("A and B are passed");
+		}
+		else if(A>=65 && B<=45) {
+			System.out.println("B is allowed to reappear the exam");
+		}
+		else if(A<=55 && B>=55) {
+			System.out.println("A should get atleast 45");
+		
+		}
+		else {
+			System.out.println(" All are failed");
+		}
+
+	}
+
+}
