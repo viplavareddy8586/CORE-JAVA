@@ -1,0 +1,103 @@
+package explicit.conversion;
+
+import java.util.ArrayList;
+
+public class OnlyMathSFailed {
+       String name;
+       String collegename;
+       int maths;
+       int science;
+       int social;
+       
+	public OnlyMathSFailed(String name, String collegename, int maths, int science, int social) {
+		super();
+		this.name = name;
+		this.collegename = collegename;
+		this.maths = maths;
+		this.science = science;
+		this.social = social;
+	}
+
+
+public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public String getCollegename() {
+		return collegename;
+	}
+
+
+	public void setCollegename(String collegename) {
+		this.collegename = collegename;
+	}
+
+
+	public int getMaths() {
+		return maths;
+	}
+
+
+	public void setMaths(int maths) {
+		this.maths = maths;
+	}
+
+
+	public int getScience() {
+		return science;
+	}
+
+
+	public void setScience(int science) {
+		this.science = science;
+	}
+
+
+	public int getSocial() {
+		return social;
+	}
+
+
+	public void setSocial(int social) {
+		this.social = social;
+	}
+
+
+public static void main(String[] args) {
+	OnlyMathSFailed m1=new OnlyMathSFailed("Viplav","Rec",50,60,70);
+	
+	OnlyMathSFailed m2=new OnlyMathSFailed("rohith","TKR",45,60,50);
+	OnlyMathSFailed m3=new OnlyMathSFailed("charan","Srt",35,60,50);
+	OnlyMathSFailed m4=new OnlyMathSFailed("Shiva","CMR",45,60,50);
+	OnlyMathSFailed m5=new OnlyMathSFailed("Bharath","Mit",15,60,50);
+	ArrayList<OnlyMathSFailed> s1=new ArrayList<OnlyMathSFailed>();
+	ArrayList<OnlyMathSFailed> mathfailed=new ArrayList<OnlyMathSFailed>();
+	s1.add(m1);
+	s1.add(m2);
+	s1.add(m3);
+	s1.add(m4);
+	s1.add(m5);
+	OnlyMathSFailed stu=null;
+	System.out.print("Maths failed students--------->\n");
+	for(int i=0;i< s1.size();i++) {
+		stu=s1.get(i);
+		if(stu.maths<50) {
+			mathfailed.add(stu);
+		}
+	}
+	System.out.print("\nName\tCollegeName\tMaths");
+	for(int i=0;i<mathfailed.size();i++) {
+		stu=mathfailed.get(i);
+		System.out.print("\n"+stu.getName()+"\t"+stu.collegename+"\t\t"+
+				stu.maths);
+		
+	}
+
+}
+}
