@@ -1,0 +1,27 @@
+package explicit.conversion;
+
+import java.util.ArrayList;
+
+public class EvensumandOddsuminArrayList {
+
+	public static void main(String[] args) {
+		ArrayList n=new ArrayList();
+		n.add(1);
+		n.add(2);
+		n.add(6);
+		n.add(13);
+		n.add(18);
+		int evensum=0,oddsum=0;
+		for(int i=0;i<n.size();i++) {
+			if((int)n.get(i) %2==0) {
+				evensum=evensum+(int)n.get(i);
+			}
+			else {
+				oddsum=oddsum+(int)n.get(i);
+			}
+		}
+        System.out.println(evensum);
+        System.out.println(oddsum);
+	}
+
+}
