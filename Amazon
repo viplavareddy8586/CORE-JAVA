@@ -1,0 +1,114 @@
+package example.product;
+
+import java.util.ArrayList;
+
+public class Product {
+	int id;
+	String name;
+	int price;
+	String brand;
+	int discount;
+	
+
+	public Product(int id, String name, int price, String brand, int discount) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.price = price;
+		this.brand = brand;
+		this.discount = discount;
+	}
+    
+
+	public int getId() {
+		return id;
+	}
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public int getPrice() {
+		return price;
+	}
+
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
+
+	public String getBrand() {
+		return brand;
+	}
+
+
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+
+
+	public int getDiscount() {
+		return discount;
+	}
+
+
+	public void setDiscount(int discount) {
+		this.discount = discount;
+	}
+
+
+	public static void main(String[] args) {
+		ArrayList<Product> prdlist=new ArrayList<Product>();
+		Product p1=new Product(123,"laptop",10000,"dell",0);
+		Product p2=new Product(143,"laptop",50000,"hp",10);
+		Product p3=new Product(856,"watch",10000,"rolex",5);
+		Product p4=new Product(678,"Mobile",20000,"samsung",20);
+		Product p5=new Product(789,"Mobile",100000,"iphone",15);
+		prdlist.add(p1);
+		prdlist.add(p2);
+		prdlist.add(p3);
+		prdlist.add(p4);
+		prdlist.add(p5);
+		Product eachprd=null;
+		System.out.println(" name\tbrand\tprice\tdiscount");
+		for(int i=0;i<prdlist.size();i++) {
+			eachprd=prdlist.get(i);
+			System.out.println(eachprd.getName() +"\t"+eachprd.getBrand() +"\t"+eachprd.getPrice() +"\t" +eachprd.getDiscount());
+			
+		}
+		System.out.println("\n\n laptop 5% discount details");
+		displayproducts(prdlist,"laptop",5);
+		System.out.println("\n\n watch 5% discount details");
+		displayproducts(prdlist,"watch",5);
+		System.out.println("\n\n laptop all details");
+		displayproducts(prdlist,"laptop",0);
+		System.out.println("\n\n mobileall details");
+		displayproducts(prdlist,"mobile",0);
+	}
+  static void displayproducts(ArrayList<Product> plist,String pname,int dis) {
+	  Product oneprd=null;
+	  System.out.println(" name\tbrand\tprice\tdiscount");
+	  for(int i=0;i<plist.size();i++) {
+		  oneprd=plist.get(i);
+		  if(oneprd.getName().equalsIgnoreCase(pname)) {
+			  if(oneprd.getDiscount()>=dis) {
+				System.out.println(oneprd.getName() +"\t"+oneprd.getBrand() +"\t"+oneprd.getPrice() +"\t" +oneprd.getDiscount());
+					
+			  }
+		  }
+	  }
+  }
+}
