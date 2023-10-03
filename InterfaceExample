@@ -1,0 +1,115 @@
+package explicit.conversion;
+class Person{
+	String name;
+	String aadharNo;
+	String mobileNo;
+	String address;
+}
+
+class Employee extends Person{
+	int id;
+	String orgName;
+	int salary;
+}
+interface Bank{
+	void deposit(int amt);
+	void withDraw(int amt);
+	void checkBalance();
+}
+
+class SBIBank implements Bank{
+	int accno;
+	String name;
+	int balance;
+	public SBIBank(int accno, String name, int balance) {
+		super();
+		this.accno = accno;
+		this.name = name;
+		this.balance = balance;
+	}
+	@Override
+	public void deposit(int amt) {
+		if(amt > 10000) {
+			System.out.println("From SBIBank:::Daily u canot deposit >"+amt);
+					
+		}
+		else {
+			this.balance = this.balance + amt;
+			System.out.println("From SBIBank:::Successfully deposited  amount..."+amt);
+		}
+	}
+	@Override
+	public void withDraw(int amt) {
+		if(amt > 10000) {
+			System.out.println("From SBIBank:::Daily u canot withdraw >"+amt);
+					
+		}
+		else {
+			this.balance = this.balance - amt;
+			System.out.println("From SBIBank:::Successfully withDrawn  amount..."+amt);
+		}
+	}
+	@Override
+	public void checkBalance() {
+		System.out.println("From SBIBank:::Available Balance---->"+this.balance);
+			
+	}
+	
+}
+
+
+
+class AxisBank implements Bank{
+	int accno;
+	String name;
+	int balance;
+	public AxisBank(int accno, String name, int balance) {
+		super();
+		this.accno = accno;
+		this.name = name;
+		this.balance = balance;
+	}
+	@Override
+	public void deposit(int amt) {
+		this.balance = this.balance + amt;
+		System.out.println("From AxisBank:::Successfully deposited  amount..."+amt);
+	}
+	@Override
+	public void withDraw(int amt) {
+		this.balance = this.balance - amt;
+		System.out.println("From AxisBank::::Successfully withdrawn  amount..."+amt);
+		
+	}
+	@Override
+	public void checkBalance() {
+		System.out.println("From AxisBank::::Available Balance---->"+this.balance);
+			
+	}
+	
+}
+public class Demo {
+
+	public static void main(String[] args) {
+		Bank bank;
+
+		bank = new SBIBank(15000,"Viplav",4000);
+		
+		bank.checkBalance();
+		bank.deposit(40000);
+		
+		bank.checkBalance();
+		bank.deposit(145000);
+		bank.checkBalance();
+		
+		bank = new AxisBank(12000,"rohith",12000);
+		
+		bank.checkBalance();
+		bank.deposit(45000);
+			
+		bank.checkBalance();
+		bank.deposit(325000);
+		bank.checkBalance();
+		
+	}
+
+}
