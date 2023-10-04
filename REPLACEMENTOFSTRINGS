@@ -1,0 +1,31 @@
+package example;
+
+public class Replacementofoneanotherstring {
+
+	public static void main(String[] args) {
+		String str1="hello";
+		String str2="hi";
+		/*String t;
+		System.out.println("before swapping");
+		System.out.println(str);
+		System.out.println(str1);
+		t=str;
+		str=str1;
+		str1=t;
+		System.out.println("after swapping");
+		System.out.println(str);
+		System.out.println(str1);
+     */
+		System.out.println("before swapping");
+		System.out.println(str1);
+		System.out.println(str2);
+		str1=str1+str2;//hellohi
+		str2=str1.substring(0, str1.length()-str2.length());//hellohi-hi//hello
+		str1=str1.substring(str2.length());
+		System.out.println("after swapping");
+		System.out.println(str1);
+		System.out.println(str2);
+		
+	}
+
+}
