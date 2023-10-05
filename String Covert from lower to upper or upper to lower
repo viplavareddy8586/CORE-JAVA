@@ -1,0 +1,27 @@
+package example;
+
+public class Stringcovertfromuppertolower {
+
+	public static void main(String[] args) {
+		String str="Viplava Reddy Amireddy"; //A-Z={65 to 90}
+		char ch;
+		String str1="";
+		for(int i=0;i<str.length();i++) {
+			ch=str.charAt(i);
+		if(ch>=65 && ch<=90) {
+			str1=str1+(char)(ch+32);
+		}
+		
+		else if(ch>=97 && ch<=122){
+			str1=str1+(char)(ch-32);//a-z={97-122}
+			
+		}
+		else {
+			str1=str1+ch;
+		}
+		
+		}
+		System.out.print(str1);
+	}
+
+}
