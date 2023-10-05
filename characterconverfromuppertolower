@@ -1,0 +1,21 @@
+package example;
+
+public class Convertonecharacterfromlowertoupper {
+
+	public static void main(String[] args) {
+		/* String str="Welcome";
+		String res="";
+		if(str.charAt(0)>=65 && str.charAt(0)<=90) {
+			res=res+(char)(str.charAt(0)+32)+str.substring(1);
+		}
+		System.out.println(res);
+*/
+		String str="welcome";
+		String res1=" ";
+		if(str.charAt(0)>=97 && str.charAt(0)<=122) {
+			res1=res1+(char)(str.charAt(0)-32)+str.substring(1);
+		}
+		System.out.println(res1);
+	}
+
+}
