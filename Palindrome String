@@ -1,0 +1,29 @@
+package example;
+
+public class Polindromestring {
+
+	public static void main(String[] args) {
+		String str="1234543212";
+		String rev="";
+		for(int i=str.length()-1;i>=0;i--) {
+			rev=rev+str.charAt(i);
+		}
+		if(str.contentEquals(rev)) {
+		System.out.println("is palindrome");
+		}
+		else {
+			System.out.println("is not palindrome");
+		}
+		/*boolean poly=true;
+		for(int l=0,r=str.length()-1;l<str.length()/2;l++,r--) {
+			if(str.charAt(l)!=str.charAt(r)) {
+				poly=false;
+				break;
+			}
+		}
+		if(poly==true)System.out.println("is palindrome");
+		else System.out.println("is not palindorme");
+*/
+	}
+
+}
