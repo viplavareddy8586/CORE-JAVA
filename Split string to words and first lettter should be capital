@@ -1,0 +1,53 @@
+package example;
+
+public class ConvertWholeStringtogoodway {
+
+	public static void main(String[] args) {
+		String data = "welcome to Hyderabad.unocareer is good Company.i am Living In Hyderabad";
+		data=data.replace('.', ':');
+		String[] lines=data.split(":");
+       String[] words;
+       char firstchar;
+       String newline;
+      for(int i=0;i<lines.length;i++) {
+    	  words=lines[i].split("");
+    	  newline="";
+    	  
+    	  for(int j=0;j<words.length;j++) {
+    		  if((j==0)&&(words[j].length()>0)) {
+    			  firstchar=words[j].charAt(0);
+    			  firstchar=toupperchar(firstchar);
+    			  words[j]=firstchar+words[j].substring(1);
+    		  }//if
+    		  else if((words[j].length()>0)) {
+    			  firstchar=words[j].charAt(0);
+    			  firstchar=tolowerchar(firstchar);
+    			  words[j]=firstchar+words[j].substring(1);
+    	  }//for
+    		  newline=newline+words[j];
+    	  }
+    	  System.out.println(newline);
+      }
+    	  
+       	}
+      public static char toupperchar(char ch) {
+    	  char res=' ';
+    	  if(ch>=97 && ch<=122) {
+    		  res=(char)(ch-32);
+    	  }
+    	  else if(ch>=65 && ch<=90) {
+    		  res=ch;
+    	  }
+    	  return res;
+      }
+      public static char tolowerchar(char ch) {
+    	  char res=' ';
+    	  if(ch>=97 && ch<=122) {
+    		  res=ch;
+    	  }
+    	  else if(ch>=65 && ch<=90) {
+    		  res=(char)(ch+32);
+    	  }
+    	  return res;
+      }
+}
