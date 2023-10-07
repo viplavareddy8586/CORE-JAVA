@@ -1,0 +1,70 @@
+Rahul  has to visit  cities  for sales promotion. Each city has its own business area.In this area there will be offices.
+Each office has its own location point.Each Office locateda at  some multilevel height bulidings. Every time Rahul has to stand at beginning of the
+colony and look for multilevel height buildings to promote his products. Now Rahul starts promoting products  with the people of each multilevel height building.
+He can promote with people of a particular multilevel height building only if he can see that multilevel height building.
+If he succeed to promote with any particular multilevel height building then he will get salary . i.e. if he promotes with
+multilevel height buildings in a day, then he will earn . Now Rahul wants to know his salary  in a day.
+
+All the multilevel height buildings will be on Strainght Line and Rahul is always standing at starting of the colony.
+
+Input:
+First line will an integer , denoting no of colonies in the city.
+For every colony will be  described in next two lines.
+First line contains two integers  and  denoting no of multilevel height buildings in the colony and earning on communicating with a multilevel height buildings.
+Next line will also be an integers, denoting height of  multilevel height buildings.
+
+Output:
+Print  Lines, each containing maximum earning in  a colony.
+   
+Constraints:
+SAMPLE INPUT
+1
+8 20
+6 1 2 15 3 10 50 29
+7 10
+30 10 22 30 40 50 79
+SAMPLE OUTPUT
+60
+40
+
+
+package example;
+
+import java.util.Scanner;
+
+public class RahulExample {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number of cases");
+		int c=sc.nextInt();
+		for(int i=1;i<=c;i++) {
+			System.out.println("enter the no of buildings");
+			int b=sc.nextInt();
+			System.out.println("price per each building");
+			int p=sc.nextInt();
+			int[] h=new int[b];
+			System.out.println("enter all."+b+"buildings heights");
+			for(int j=0;j<b;j++) {
+				h[j]=sc.nextInt();
+			}
+			int res=printResult(h,p);
+			System.out.println("Result--->"+res);
+			
+		}
+		
+		
+	}
+
+	private static int printResult(int[] h, int p) {
+		int max=h[0],count=1;
+		for(int k=1;k<h.length;k++) {
+			if(h[k]>max) {
+				max=h[k];
+				count++;
+			}
+		}
+		return count *p;
+	}
+
+}
