@@ -1,0 +1,48 @@
+[0:00 pm, 10/10/2023] Basha Unocareer: <html>
+<body>
+<h1 style="text-align:center;">Centered Heading</h1>
+<h2 style="text-align:left;">Centered paragraph.</h2>
+<h2 style="text-align:right;">Centered paragraph.</h2>
+
+</body>
+
+</html>
+[0:14 pm, 10/10/2023] Basha Unocareer: ..
+[0:14 pm, 10/10/2023] Basha Unocareer: Formatting elements were designed to display special types of text:
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+[0:35 pm, 10/10/2023] Basha Unocareer: ..
+[0:35 pm, 10/10/2023] Basha Unocareer: <html>
+<body>
+
+Here is a quote from WWF's website:
+<blockquote cite="">
+For 60 years, WWF has worked to help people 
+and nature thrive. As the world's leading 
+conservation organization, WWF works in nearly 
+100 countries. At every level, 
+we collaborate with people around the world to 
+develop and deliver innovative solutions that
+ protect communities, wildlife, 
+and the places in which they live.
+</blockquote>
+</body>
+
+</html>
+[0:44 pm, 10/10/2023] Basha Unocareer: ..
+[0:44 pm, 10/10/2023] Basha Unocareer: <blockquote>,<q>, <abbr>, <address>,and <bdo>
+[0:45 pm, 10/10/2023] Basha Unocareer: ..
+[0:45 pm, 10/10/2023] Basha Unocareer: <blockquote cite=""></blockquote>
+[0:45 pm, 10/10/2023] Basha Unocareer: <q></q>
+[0:46 pm, 10/10/2023] Basha Unocareer: <abbr title="Indian Instistetue ofTechnology">IIT</abbr>
+[0:46 pm, 10/10/2023] Basha Unocareer: <address>fasdf dsfsdf</address>
+[0:47 pm, 10/10/2023] Basha Unocareer: <bdo dir="rtl">123456789</bdo>
