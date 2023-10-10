@@ -1,0 +1,76 @@
+..... for text align
+
+<html>
+<body>
+<h1 style="text-align:center">Viplava Reddy</h1>
+<h2 style="text-align:left">Rohith reddy</h2>
+<h3 style="text-align:right">Shiva reddy</h3>
+</body>
+</html>
+
+////// for blockquote
+<html>
+<body>
+Unocareer
+<blockquote cite="">
+Happiness comes from giving, not getting. If we try to bring happiness to others, we cannot stop it from coming to us also. To get joy, we must give it, and to keep joy, we must scatter it - John Templeton
+</blockquote>
+</body>
+</html>
+
+////for abbreviation
+<html>
+<body>
+<abbr title="AMIREDDY VIPLAVA REDDY">AVR</abbr>
+</body>
+</html>
+
+/// for address
+<html>
+<body>
+<address>
+Yerragaddala gudem
+pajjur
+Thipparthi
+Nalgonda
+508247
+</address>
+</body>
+</html>
+
+
+//// for bdo
+<html>
+<body>
+<bdo dir="rtl">123456789</bdo>
+</body>
+</html>
+
+//// for every line quote by using q
+<html>
+<body>
+<q>Happiness comes from giving, not getting. If we try to bring happiness to others, we cannot stop it from coming to us also. </q>
+<br><q>To get joy, we must give it, and to keep joy, we must scatter it" - John Templeton</q>
+</body>
+</html>
+
+
+//// for border color
+<html>
+<body>
+<h1 style="border:2px solid tomato;">VIPLAVA REDDY</h1>
+<h2 style="border:2px solid blue;">ROHITH REDDY</h2>
+<h3 style="border:2px solid red;">SHIVA REDDY</h3>
+</body>
+</html>
+
+
+///// using rgb color
+
+<html>
+<body>
+<h1 style="background-color:rgb(255,0,0)">Hello hyderabad</h1>
+<h1 style="background-color:rgb(0,255,0)">Hello hyd</h1>
+<h1 style="background-color:rgb(0,0,255)">Hello</h1>
+</body>
+</html>
