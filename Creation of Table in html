@@ -1,0 +1,26 @@
+<html>
+<body>
+<table>
+<tr>
+<th>Name</th>
+<th>Address</th>
+<th>Occupation</th>
+</tr>
+<tr>
+<td>VIPLAV</td>
+<td>NLG</td>
+<td>SOFTWARE ENGINEER</td>
+</tr>
+<tr>
+<td>ROHITH</td>
+<td>SRPT</td>
+<td>SAP DEVELOPER</td>
+</tr>
+<tr>
+<td>SHIVA</td>
+<td>HYD</td>
+<td>LG TECHNOICIAN</td>
+</tr>
+</table>
+</body>
+</html>
