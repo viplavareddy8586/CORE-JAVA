@@ -1,0 +1,60 @@
+//style is inline
+
+<html>
+<body>
+<h1 style="color:blue">VIPLAVA REDDY AMIREDDY</h1>
+<h2 style="color:red">ROHITH REDDY KAKI</h2>
+</body>
+</html>
+
+
+// <style> is internal
+
+<html>
+<head>
+<style>
+h1{
+   background-color:red;
+   color:yellow
+}
+h2{
+  background-color:blue;
+  color:green
+}
+
+</style>
+</head>
+<body>
+<h1> Rohith reddy</h1>
+<h2>Viplava reddy</h2>
+</body>
+</html>
+
+
+///// EXternal
+
+.....css.css
+h1{
+  background-color:green;
+  color:blue
+}
+h2{
+  background-color:yellow;
+  color:orange
+}
+
+
+////html for external
+
+<html>
+<head>
+<link rel="stylesheet" href="css.css"/>
+</head>
+<body>
+<h1>Hyderabad</h1>
+<h2>Nalgonda</h2>
+<h1>Unocareer</h1>
+</body>
+</html>
+
+
