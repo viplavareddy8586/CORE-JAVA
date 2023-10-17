@@ -1,0 +1,29 @@
+<html>
+    <body>
+        <div style="display: grid;grid-template-columns: 100px 200px 300px;">
+         <div style="background-color: red;">div1</div>
+         <div style="background-color:blue;">div2</div>
+         <div style="background-color:green;">div3</div>
+        </div>
+        <div style="display: grid;grid-template-columns: 100px 1fr; margin-top: 20px;">
+            <div style="background-color: red;">div1</div>
+            <div style="background-color:blue;">div2</div>
+           </div>
+           <div style="display: grid;grid-template-columns: 100px 1fr 1fr; margin-top: 20px;">
+            <div style="background-color: red;">div1</div>
+            <div style="background-color:blue;">div2</div>
+            <div style="background-color:green;">div3</div>
+           </div>
+           <div style="display: grid;grid-template-columns: 100px 1fr ; margin-top: 20px;">
+            <div style="background-color: red;">div1</div>
+            <div style="background-color:blue;">div2</div>
+            <div style="background-color:aquamarine;">div3</div>
+           </div>
+           <div style="display: grid;grid-template-columns: 1fr 1fr 1fr ;height:100px; margin-top: 20px;column-gap: 10px;">
+            <div style="background-color: red;">div1</div>
+            <div style="background-color:blue;">div2</div>
+            <div style="background-color:aquamarine;">div3</div>
+           </div>
+
+    </body>
+</html>
