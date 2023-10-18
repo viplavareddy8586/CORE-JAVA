@@ -77,6 +77,158 @@
             </div>
         </div>
     </div>
+    <div>
+        <div>
+            <img src="../image/thumbnail-5.webp" width="350px" height="250px"/>
+        </div>
+        <div style="margin-top: 10px;">
+            <div style="display: inline-block; vertical-align: top;">
+                <img style="border-radius: 20px;"src="../image/channel-5.jpeg" width="40px" height="40px"/>
+            </div>
+            <div style="display: inline-block;font-weight: bold; width: 280px;margin-left: 10px;">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+                <div style="color: gray;margin-top: 10px;">
+                    CS Dojo
+                    <div style="color: gray;margin-top: 10px;">
+                        519K views · 5 years ago
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <img src="../image/thumbnail-6.webp" width="350px" height="250px"/>
+        </div>
+        <div style="margin-top: 10px;">
+            <div style="display: inline-block; vertical-align: top;">
+                <img style="border-radius: 20px;"src="../image/channel-6.jpeg" width="40px" height="40px"/>
+            </div>
+            <div style="display: inline-block;font-weight: bold; width: 280px;margin-left: 10px;">
+                Anything You Can Fit In The Circle I’ll Pay For
+                <div style="color: gray;margin-top: 10px;">
+                    MrBeast
+                    <div style="color: gray;margin-top: 10px;">
+                        141M views · 1 year ago
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <img src="../image/thumbnail-7.webp" width="350px" height="250px"/>
+        </div>
+        <div style="margin-top: 10px;">
+            <div style="display: inline-block; vertical-align: top;">
+                <img style="border-radius: 20px;"src="../image/channel-7.jpeg" width="40px" height="40px"/>
+            </div>
+            <div style="display: inline-block;font-weight: bold; width: 280px;margin-left: 10px;">
+                Why Planes Don't Fly Over Tibet
+                <div style="color: gray;margin-top: 10px;">
+                    RealLifeLore
+                    <div style="color: gray;margin-top: 10px;">
+                        6.6M views · 1 year ago
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <img src="../image/thumbnail-8.webp" width="350px" height="250px"/>
+        </div>
+        <div style="margin-top: 10px;">
+            <div style="display: inline-block; vertical-align: top;">
+                <img style="border-radius: 20px;"src="../image/channel-8.jpeg" width="40px" height="40px"/>
+            </div>
+            <div style="display: inline-block;font-weight: bold; width: 280px;margin-left: 10px;">
+                Inside The World's Biggest Passenger Plane
+                <div style="color: gray;margin-top: 10px;">
+                    Tech Vision
+                    <div style="color: gray;margin-top: 10px;">
+                        3.7M views · 10 months ago
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <img src="../image/thumbnail-9.webp" width="350px" height="250px"/>
+        </div>
+        <div style="margin-top: 10px;">
+            <div style="display: inline-block; vertical-align: top;">
+                <img style="border-radius: 20px;"src="../image/channel-9.jpeg" width="40px" height="40px"/>
+            </div>
+            <div style="display: inline-block;font-weight: bold; width: 280px;margin-left: 10px;">
+                The SECRET to Super Human STRENGTH
+                <div style="color: gray;margin-top: 10px;">
+                    ThenX
+                    <div style="color: gray;margin-top: 10px;">
+                        20M views · 3 year ago
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+         <div>
+                     <div>
+                        <img src="../image/thumbnail-10.webp" width="350px" height="250px"/>
+                    </div>
+                    <div style="display: grid;grid-template-columns: 40px 1fr; margin-top: 10px;column-gap: 10px;">
+                        <div>
+                            <img style="border-radius: 20px"src="../image/channel-10.jpeg" width="40px" height="40px"/>
+                        </div>
+                        <div style="font-weight: bold;">
+                            How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+                            <div style="font-weight: lighter; color: gray;margin-top: 10px;">
+                                Business Insider
+                                <div style="font-weight: lighter;color: gray;margin-top: 10px;">
+                                    14M views · 1 year ago
+                                </div>
+                            </div>
+                        </div>
+                 </div>
+            </div>
+            <div>
+                <div>
+                    <img src="../image/thumbnail-11.webp" width="350px" height="250px"/>
+                </div>
+                <div style="display: grid;grid-template-columns: 40px 1fr;column-gap: 10px;margin-top: 10px;">
+                    <div >
+                        <img style="border-radius: 20px;"src="../image/channel-11.jpeg" width="40px" height="40px"/>
+                    </div>
+                    <div style="font-weight: bold;">
+                        Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+                        <div style="font-weight: lighter;color: grey;margin-top: 10px;">
+                            Destination Tips
+                            <div style="font-weight: lighter;color: gray;margin-top: 10px;">
+                                3M views · 1 year ago
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="../image/thumbnail-12.webp" width="350px" height="250px"/>
+                </div>
+                <div style="display: grid;grid-template-columns: 40px 1fr;column-gap: 10px;margin-top: 10px;">
+                    <div>
+                        <img style="border-radius: 20px;"src="../image/channel-12.jpeg" width="40px" height="40px"/>
+                    </div>
+                    <div style="font-weight: bold;">
+                        What would happen if you didn’t drink water?-Mia Nacamulli
+                        <div style="font-weight:lighter ;color:gray;margin-top: 10px;">
+                            TED-Ed
+                            <div style="font-weight: lighter;color: gray;margin-top: 10px;">
+                                12M views · 5 years ago
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
  </div>
 </body>
 </html>
