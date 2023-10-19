@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <div style="display: flex;column-gap: 10px;">
+            <div style="background-color: blue;width: 100px;flex: 1;">
+              viplava reddy
+            </div>
+            <div style="background-color: brown;flex: 1;">
+                rohith reddy
+            </div>
+            <div style="background-color: rebeccapurple;width: 100px;flex: 1;">
+                shiva reddy
+            </div>
+            <div style="background-color: aqua;flex: 1;">
+            charan kumar
+            </div>
+        </div>
+    </body>
+</html>
