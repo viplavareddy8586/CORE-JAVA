@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <style>
+            #use{
+                height:33px;
+                width: 400px;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="display: flex;border-style:solid;justify-content:space-between;align-items: center;border-width: 2px;border-color: blue;">
+            <!-- left side start -->
+        <div style="display: flex;justify-content: space-between;">
+                <div >
+                    <img src="hamburger-menu.svg" width="50px" height="50px"/>
+                    </div>
+                <div>
+                    <img src="youtube-logo.svg" width="100px" height="50px"/>
+                </div>
+        </div>
+        <!-- left side end -->
+        <!-- center side start -->
+        <div style="display: flex;">
+            <div>
+                <input id="use" type="text" placeholder="search"/>
+            </div>
+            <button style="margin-left: -15px;">
+                <img src="search.svg" height="10px" width="25px"/>
+            </button>
+            <div>
+                <img src="voice-search-icon.svg"width="35px" height="35px";/>
+            </div>
+        </div>
+        <!-- center side end -->
+        <!-- right side start -->
+          <div style="display: flex;column-gap: 30px;">
+                <div >
+                <img src="upload.svg" height="40px" width="40px"/>
+                </div>
+                <div >
+                    <img src="youtube-apps.svg" height="40px" width="40px"/>
+                </div>
+                <div >
+                    <img src="notifications.svg"height="40px" width="40px"/>
+                </div>
+                <div >
+                    <img src="my-channel.jpeg" height="40px" width="40px"/>
+                </div>
+          </div>
+          <!-- right side end -->
+    </div>
+    
+    </body>
+</html>
