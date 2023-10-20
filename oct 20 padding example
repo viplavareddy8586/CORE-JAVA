@@ -1,0 +1,13 @@
+<html>
+    <body style="padding-top: 200px;">
+        <div style="padding-bottom: 1000px;">
+        <div style="background-color: aqua;color: blue;position: fixed;
+        left: 0;right: 0;top: 0;height: 100px;">
+            header
+        </div>
+        <div>
+            <img src="pichai.webp" width="350px" height="250px"/>
+        </div>
+        </div>
+    </body>
+</html>
