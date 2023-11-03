@@ -1,0 +1,28 @@
+package assignment.io;
+
+public class Assignmentrepeatedlastnumberinarray {
+
+	public static void main(String[] args) {
+		String str="1033909341141";
+		char[] arr=str.toCharArray();
+		char ch;
+		char last=' ';
+		int iscount=0;
+		for(int i=0;i<arr.length;i++) {
+			ch=arr[i];
+			iscount=0;
+			for(int j=0;j<arr.length;j++) {
+				if(ch==arr[j]) {
+				  iscount++;
+				}//if
+			}//for j
+			if(iscount>1) {
+				last=ch;
+			}
+		}//for i
+		System.out.println("last repeated number--->"+last);
+	}
+	
+	
+
+}
