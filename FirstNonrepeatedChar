@@ -1,0 +1,30 @@
+package assignment.io;
+
+public class FirstNonrepeatedChar {
+	
+
+	public static void main(String[] args) {
+	 String str="Swiss";
+	 str=str.toLowerCase();
+	 char[] arr=str.toCharArray();
+	char eachchar;
+	char firstnonrepeated =' ';
+	
+	 for(int i=0;i<arr.length;i++) {
+		eachchar=arr[i];
+		boolean isfound=false;
+		for(int j=i+1;j<arr.length;j++) {
+			if(eachchar==arr[j]) {
+				isfound=true;
+				break;
+			}//if
+		}//for j
+		if(isfound==false) {
+			firstnonrepeated=eachchar;
+			break;
+		}//if
+	 }//for
+	 System.out.println("firstnonrepeated word----->"+firstnonrepeated);
+	}
+	
+}
